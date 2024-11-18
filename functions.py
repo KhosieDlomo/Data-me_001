@@ -30,7 +30,9 @@ def get_keys_with_value(dct, value):
     :param value: Value to find.
     :return: List of keys.
     """
-    pass  # Implement this
+    # Implement this
+    for value in dct:
+        return dct[value]
 
 def merge_sorted_lists(lst1, lst2):
     """
